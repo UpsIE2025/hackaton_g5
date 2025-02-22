@@ -20,7 +20,7 @@ hackathon-grupo5/
 
 ---
 
-## 🛠️ Proyectos
+## 🛠�?Proyectos
 
 A continuación, te presentamos los proyectos en los que estamos trabajando:
 
@@ -29,7 +29,7 @@ A continuación, te presentamos los proyectos en los que estamos trabajando:
 - **Tecnologías:** Lista de tecnologías utilizadas.
 - **Estado:** 🟢 En progreso / 🟡 En revisión / 🔴 Completado
 
-### � Proyecto 2: Patrón de Integración Y
+### �?Proyecto 2: Patrón de Integración Y
 - **Descripción:** Breve descripción del patrón y su aplicación.
 - **Tecnologías:** Lista de tecnologías utilizadas.
 - **Estado:** 🟢 En progreso / 🟡 En revisión / 🔴 Completado
@@ -38,6 +38,16 @@ A continuación, te presentamos los proyectos en los que estamos trabajando:
 - **Descripción:** Breve descripción del patrón y su aplicación.
 - **Tecnologías:** Lista de tecnologías utilizadas.
 - **Estado:** 🟢 En progreso / 🟡 En revisión / 🔴 Completado
+
+### �11 Proyecto 11: Documente Message
+- **Descripción:** El patr��n Document Message es un Patr��n de Integraci��n Empresarial (EIP) que se utiliza para transmitir informaci��n estructurada entre sistemas mediante mensajes en formato de documento.
+- **Tecnologías:** Kaffa, Redis, Java.
+- **Estado:** 🟢 En progreso 
+
+### �12 Proyecto 12: Event Message
+- **Descripción:** El Event Message es un Patr��n de Integraci��n Empresarial (EIP) utilizado para transmitir eventos entre sistemas mediante mensajes. A diferencia de otros patrones como Document Message, donde el mensaje contiene toda la informaci��n estructurada, aqu�� el mensaje se enfoca en notificar que ocurri�� un evento, sin necesariamente contener todos los datos asociados.
+- **Tecnologías:** Kafka, Redis, Java.
+- **Estado:** 🟢 En progreso 
 
 ---
 
@@ -74,7 +84,7 @@ A continuación, te presentamos los proyectos en los que estamos trabajando:
 
 Michael Salazar (Líder de Grupo)    
 - Verónica Vicente	Desarrollador	@veroely
-- [Nombre 2]	Arquitecto	@usuario
+- Jefferson Espinoza	Desarrollador	@jeff1018
 - [Nombre 3]	Diseñador	@usuario
 - [Nombre 4]	Scrum Master	@usuario
 
