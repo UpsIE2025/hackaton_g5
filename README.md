@@ -73,10 +73,10 @@ A continuación, te presentamos los proyectos en los que estamos trabajando:
 ¡Conoce al increíble equipo detrás de este proyecto! 👋
 
 Michael Salazar (Líder de Grupo)    
-[Nombre 1]	Desarrollador	@usuario
-[Nombre 2]	Arquitecto	@usuario
-[Nombre 3]	Diseñador	@usuario
-[Nombre 4]	Scrum Master	@usuario
+- Verónica Vicente	Desarrollador	@veroely
+- [Nombre 2]	Arquitecto	@usuario
+- [Nombre 3]	Diseñador	@usuario
+- [Nombre 4]	Scrum Master	@usuario
 
 --- 
 
