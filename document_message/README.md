@@ -29,15 +29,15 @@ El sistema permite enviar y recibir **mensajes estructurados** en formato JSON, 
 ```bash
 git clone https://github.com/UpsIE2025/hackaton_g5.git
 
-📌 Proyecto: Implementación del Patrón Document Message con Kafka y Redis as broker
+#📌 Proyecto: Implementación del Patrón Document Message con Kafka y Redis as broker
 
-📖 Historia de Usuario
+##📖 Historia de Usuario
 
 COMO arquitecto de software,QUIERO desarrollar un sistema de mensajería basado en el patrón Document Message utilizando Kafka, Redis y Java con Gradle,PARA garantizar la comunicación eficiente y asíncrona entre los microservicios del sistema.
 
-✅ Criterios de Aceptación
+##✅ Criterios de Aceptación
 
-🔹 Publicación de Mensajes en Kafka
+##🔹 Publicación de Mensajes en Kafka
 
 DADO un microservicio productor configurado en Java con Gradle,
 
@@ -45,7 +45,7 @@ CUANDO se genere un evento de negocio con datos estructurados en JSON,
 
 ENTONCES el mensaje debe enviarse correctamente a un tópico en Kafka.
 
-🔹 Consumo de Mensajes desde Kafka
+##🔹 Consumo de Mensajes desde Kafka
 
 DADO un microservicio consumidor suscrito al tópico en Kafka,
 
@@ -53,7 +53,7 @@ CUANDO se publique un mensaje con información en formato JSON,
 
 ENTONCES el consumidor debe procesarlo y almacenarlo en Redis.
 
-🔹 Almacenamiento en Redis
+##🔹 Almacenamiento en Redis
 
 DADO un mensaje recibido desde Kafka,
 
@@ -61,7 +61,7 @@ CUANDO se procese correctamente por el consumidor,
 
 ENTONCES debe guardarse en Redis para su posterior recuperación.
 
-🔹 Visualización de Mensajes en Redis Commander
+##🔹 Visualización de Mensajes en Redis Commander
 
 DADO que los mensajes han sido almacenados en Redis,
 
@@ -69,7 +69,7 @@ CUANDO se acceda a Redis Commander a través de http://localhost:8081,
 
 ENTONCES se deben visualizar los mensajes almacenados en Redis.
 
-🔹 Configuración de Docker Compose
+##🔹 Configuración de Docker Compose
 
 DADO un entorno de contenedores con Kafka y Redis,
 
@@ -77,7 +77,7 @@ CUANDO se ejecute docker-compose up -d,
 
 ENTONCES los servicios deben levantarse correctamente y ser accesibles en sus respectivos puertos.
 
-🚀 Tecnologías Utilizadas
+##🚀 Tecnologías Utilizadas
 
 Java 17+
 
@@ -91,7 +91,7 @@ Docker & Docker Compose
 
 Spring Boot (para la implementación de los microservicios)
 
-🛠 Instalación y Ejecución
+##🛠 Instalación y Ejecución
 
 Clonar el Repositorio
 
@@ -114,7 +114,7 @@ Acceder a Redis Commander
 
 Abrir el navegador en http://localhost:8081
 
-📝 Notas
+##📝 Notas
 
 Asegúrate de tener Docker y Docker Compose instalados.
 
@@ -126,7 +126,7 @@ Redis: 6379
 
 Redis Commander: 8081
 
-📩 Contribuciones
+##📩 Contribuciones
 
 Las contribuciones son bienvenidas. Para cualquier mejora o sugerencia, abre un issue o envía un pull request.
 
