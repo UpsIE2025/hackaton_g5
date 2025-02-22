@@ -20,7 +20,7 @@ hackathon-grupo5/
 
 ---
 
-## ğŸ› ï¸?Proyectos
+## ğŸ› ï¿½?Proyectos
 
 A continuaciÃ³n, te presentamos los proyectos en los que estamos trabajando:
 
@@ -29,7 +29,7 @@ A continuaciÃ³n, te presentamos los proyectos en los que estamos trabajando:
 - **TecnologÃ­as:** Lista de tecnologÃ­as utilizadas.
 - **Estado:** ğŸŸ¢ En progreso / ğŸŸ¡ En revisiÃ³n / ğŸ”´ Completado
 
-### ï¿?Proyecto 2: PatrÃ³n de IntegraciÃ³n Y
+### ï¿½?Proyecto 2: PatrÃ³n de IntegraciÃ³n Y
 - **DescripciÃ³n:** Breve descripciÃ³n del patrÃ³n y su aplicaciÃ³n.
 - **TecnologÃ­as:** Lista de tecnologÃ­as utilizadas.
 - **Estado:** ğŸŸ¢ En progreso / ğŸŸ¡ En revisiÃ³n / ğŸ”´ Completado
@@ -39,13 +39,13 @@ A continuaciÃ³n, te presentamos los proyectos en los que estamos trabajando:
 - **TecnologÃ­as:** Lista de tecnologÃ­as utilizadas.
 - **Estado:** ğŸŸ¢ En progreso / ğŸŸ¡ En revisiÃ³n / ğŸ”´ Completado
 
-### ğŸ11 Proyecto 11: Documente Message
-- **DescripciÃ³n:** El patr¨®n Document Message es un Patr¨®n de Integraci¨®n Empresarial (EIP) que se utiliza para transmitir informaci¨®n estructurada entre sistemas mediante mensajes en formato de documento.
+### ï¿½11 Proyecto 11: Documente Message
+- **DescripciÃ³n:** El patrï¿½ï¿½n Document Message es un Patrï¿½ï¿½n de Integraciï¿½ï¿½n Empresarial (EIP) que se utiliza para transmitir informaciï¿½ï¿½n estructurada entre sistemas mediante mensajes en formato de documento.
 - **TecnologÃ­as:** Kaffa, Redis, Java.
 - **Estado:** ğŸŸ¢ En progreso 
 
-### ğŸ12 Proyecto 12: Event Message
-- **DescripciÃ³n:** El Event Message es un Patr¨®n de Integraci¨®n Empresarial (EIP) utilizado para transmitir eventos entre sistemas mediante mensajes. A diferencia de otros patrones como Document Message, donde el mensaje contiene toda la informaci¨®n estructurada, aqu¨ª el mensaje se enfoca en notificar que ocurri¨® un evento, sin necesariamente contener todos los datos asociados.
+### ï¿½12 Proyecto 12: Event Message
+- **DescripciÃ³n:** El Event Message es un Patrï¿½ï¿½n de Integraciï¿½ï¿½n Empresarial (EIP) utilizado para transmitir eventos entre sistemas mediante mensajes. A diferencia de otros patrones como Document Message, donde el mensaje contiene toda la informaciï¿½ï¿½n estructurada, aquï¿½ï¿½ el mensaje se enfoca en notificar que ocurriï¿½ï¿½ un evento, sin necesariamente contener todos los datos asociados.
 - **TecnologÃ­as:** Kafka, Redis, Java.
 - **Estado:** ğŸŸ¢ En progreso 
 
@@ -85,7 +85,7 @@ A continuaciÃ³n, te presentamos los proyectos en los que estamos trabajando:
 Michael Salazar (LÃ­der de Grupo)    
 - VerÃ³nica Vicente	Desarrollador	@veroely
 - Jefferson Espinoza	Desarrollador	@jeff1018
-- [Nombre 3]	DiseÃ±ador	@usuario
+- Nelson Tello	Desarrollador	@tellonelson
 - [Nombre 4]	Scrum Master	@usuario
 
 --- 
