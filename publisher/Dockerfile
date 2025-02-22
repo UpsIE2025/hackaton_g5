@@ -1,9 +1,9 @@
-FROM gradle:8.8.0-jdk21-alpine AS build
+FROM gradle:8.8.0-jdk22-alpine AS build
 COPY --chown=gradle:gradle . /home/gradle/src/producer
 WORKDIR /home/gradle/src/producer
 RUN gradle build --no-daemon --stacktrace -x test
 
-FROM openjdk:21-bullseye
+FROM openjdk:22-bullseye
 EXPOSE 8080
 ARG JAR_FILE=build/libs/*.jar
 COPY --from=build /home/gradle/src/producer/build/libs/*.jar /home/app.jar
