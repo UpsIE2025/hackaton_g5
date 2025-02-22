@@ -50,15 +50,15 @@ A continuación, te presentamos los proyectos en los que estamos trabajando:
 - **Estado:** 🟢 En progreso 
 
 ### 🧩 Proyecto 13: Message Channel / Channel Adapter
-**Descripción:**
+- **Descripción:**
 Implementación de un adaptador de canal de mensajería que permite la comunicación entre aplicaciones mediante Kafka y Redis. El adaptador actúa como un cliente de mensajería que publica y consume mensajes, garantizando la integración fluida entre sistemas. También incluye almacenamiento temporal en Redis para garantizar disponibilidad y recuperación en caso de fallos, con una interfaz de administración basada en Redis Commander.
-**Tecnologías:**  
+- **Tecnologías:**  
 ☕ Java / Spring Boot (para la implementación del adaptador de canal)  
 🐳 Docker Compose (para la orquestación de servicios)  
 🦜 Apache Kafka (mensajería en tiempo real)  
 🏠 Redis (almacenamiento temporal de mensajes)  
 📊 Redis Commander (visualización y administración de datos en Redis)  
-**Estado:** 🟢 En progreso
+- **Estado:** 🟢 En progreso
 ---
 
 ## 🚀 Cómo Contribuir
