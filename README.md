@@ -86,7 +86,7 @@ Michael Salazar (Líder de Grupo)
 - Verónica Vicente	Desarrollador	@veroely
 - Jefferson Espinoza	Desarrollador	@jeff1018
 - Nelson Tello	Desarrollador	@tellonelson
-- [Nombre 4]	Scrum Master	@usuario
+- Lenin Changotasig	Desarrollador	@xaviz5
 
 --- 
 
