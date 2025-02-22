@@ -1,23 +1,23 @@
-# ?? Kafka Document Message Pattern with Spring Boot
+ï»¿# ğŸ“š Kafka Document Message Pattern with Spring Boot
 
-Este proyecto implementa el **Patr¨®n de Integraci¨®n Empresarial (EIP) "Document Message"** utilizando **Apache Kafka** y **Spring Boot**.  
-El sistema permite enviar y recibir **mensajes estructurados** en formato JSON, asegurando un intercambio de informaci¨®n completo y desacoplado entre sistemas.
-
----
-
-## ?? **Arquitectura**
-?? **Patr¨®n utilizado: Document Message**
-- Se env¨ªan mensajes con **informaci¨®n estructurada** (JSON).
-- El consumidor recibe **documentos completos** y los procesa sin necesidad de hacer m¨¢s consultas.
-
-?? **Componentes**  
-1?? **Kafka Producer** ¡ú Publica ¨®rdenes en un **topic Kafka** (`orders`).  
-2?? **Kafka Consumer** ¡ú Escucha el topic y procesa las ¨®rdenes.  
-3?? **Modelo de Orden** ¡ú Define la estructura JSON del mensaje.
+Este proyecto implementa el **PatrÃ³n de IntegraciÃ³n Empresarial (EIP) "Document Message"** utilizando **Apache Kafka** y **Spring Boot**.  
+El sistema permite enviar y recibir **mensajes estructurados** en formato JSON, asegurando un intercambio de informaciÃ³n completo y desacoplado entre sistemas.
 
 ---
 
-## ?? **Requisitos Previos**
+## ğŸš€ **Arquitectura**
+ğŸš€ **PatrÃ³n utilizado: Document Message**
+- Se envÃ­an mensajes con **informaciÃ³n estructurada** (JSON).
+- El consumidor recibe **documentos completos** y los procesa sin necesidad de hacer mÃ¡s consultas.
+
+ğŸš€ **Componentes**  
+1ï¸âƒ£ **Kafka Producer** â†’ Publica Ã³rdenes en un **topic Kafka** (`orders`).  
+2ï¸âƒ£ **Kafka Consumer** â†’ Escucha el topic y procesa las Ã³rdenes.  
+3ï¸âƒ£ **Modelo de Orden** â†’ Define la estructura JSON del mensaje.
+
+---
+
+## âš™ï¸ **Requisitos Previos**
 - Docker y Docker Compose  
 - Java 17+  
 - Gradle 8+  
@@ -25,51 +25,51 @@ El sistema permite enviar y recibir **mensajes estructurados** en formato JSON, 
 
 ---
 
-### 1?? **Clonar el repositorio**
+### 1ï¸âƒ£ **Clonar el repositorio**
+```bash
 git clone https://github.com/UpsIE2025/hackaton_g5.git
 
+ğŸ“Œ Proyecto: ImplementaciÃ³n del PatrÃ³n Document Message con Kafka y Redis as broker
 
-?? Proyecto: Implementaci¨®n del Patr¨®n Document Message con Kafka y Redis as broker
+ğŸ“– Historia de Usuario
 
-?? Historia de Usuario
+COMO arquitecto de software,QUIERO desarrollar un sistema de mensajerÃ­a basado en el patrÃ³n Document Message utilizando Kafka, Redis y Java con Gradle,PARA garantizar la comunicaciÃ³n eficiente y asÃ­ncrona entre los microservicios del sistema.
 
-COMO arquitecto de software,QUIERO desarrollar un sistema de mensajer¨ªa basado en el patr¨®n Document Message utilizando Kafka, Redis y Java con Gradle,PARA garantizar la comunicaci¨®n eficiente y as¨ªncrona entre los microservicios del sistema.
+âœ… Criterios de AceptaciÃ³n
 
-? Criterios de Aceptaci¨®n
-
-?? Publicaci¨®n de Mensajes en Kafka
+ğŸ”¹ PublicaciÃ³n de Mensajes en Kafka
 
 DADO un microservicio productor configurado en Java con Gradle,
 
 CUANDO se genere un evento de negocio con datos estructurados en JSON,
 
-ENTONCES el mensaje debe enviarse correctamente a un t¨®pico en Kafka.
+ENTONCES el mensaje debe enviarse correctamente a un tÃ³pico en Kafka.
 
-?? Consumo de Mensajes desde Kafka
+ğŸ”¹ Consumo de Mensajes desde Kafka
 
-DADO un microservicio consumidor suscrito al t¨®pico en Kafka,
+DADO un microservicio consumidor suscrito al tÃ³pico en Kafka,
 
-CUANDO se publique un mensaje con informaci¨®n en formato JSON,
+CUANDO se publique un mensaje con informaciÃ³n en formato JSON,
 
 ENTONCES el consumidor debe procesarlo y almacenarlo en Redis.
 
-?? Almacenamiento en Redis
+ğŸ”¹ Almacenamiento en Redis
 
 DADO un mensaje recibido desde Kafka,
 
 CUANDO se procese correctamente por el consumidor,
 
-ENTONCES debe guardarse en Redis para su posterior recuperaci¨®n.
+ENTONCES debe guardarse en Redis para su posterior recuperaciÃ³n.
 
-?? Visualizaci¨®n de Mensajes en Redis Commander
+ğŸ”¹ VisualizaciÃ³n de Mensajes en Redis Commander
 
 DADO que los mensajes han sido almacenados en Redis,
 
-CUANDO se acceda a Redis Commander a trav¨¦s de http://localhost:8081,
+CUANDO se acceda a Redis Commander a travÃ©s de http://localhost:8081,
 
 ENTONCES se deben visualizar los mensajes almacenados en Redis.
 
-?? Configuraci¨®n de Docker Compose
+ğŸ”¹ ConfiguraciÃ³n de Docker Compose
 
 DADO un entorno de contenedores con Kafka y Redis,
 
@@ -77,7 +77,7 @@ CUANDO se ejecute docker-compose up -d,
 
 ENTONCES los servicios deben levantarse correctamente y ser accesibles en sus respectivos puertos.
 
-?? Tecnolog¨ªas Utilizadas
+ğŸš€ TecnologÃ­as Utilizadas
 
 Java 17+
 
@@ -89,9 +89,9 @@ Redis as broker
 
 Docker & Docker Compose
 
-Spring Boot (para la implementaci¨®n de los microservicios)
+Spring Boot (para la implementaciÃ³n de los microservicios)
 
-?? Instalaci¨®n y Ejecuci¨®n
+ğŸ›  InstalaciÃ³n y EjecuciÃ³n
 
 Clonar el Repositorio
 
@@ -102,7 +102,7 @@ Levantar los Servicios con Docker Compose
 
 docker-compose up -d
 
-Compilar y ejecutar la aplicaci¨®n
+Compilar y ejecutar la aplicaciÃ³n
 
 ./gradlew bootRun
 
@@ -114,9 +114,9 @@ Acceder a Redis Commander
 
 Abrir el navegador en http://localhost:8081
 
-?? Notas
+ğŸ“ Notas
 
-Aseg¨²rate de tener Docker y Docker Compose instalados.
+AsegÃºrate de tener Docker y Docker Compose instalados.
 
 Los puertos utilizados en este proyecto son:
 
@@ -126,11 +126,11 @@ Redis: 6379
 
 Redis Commander: 8081
 
-?? Contribuciones
+ğŸ“© Contribuciones
 
-Las contribuciones son bienvenidas. Para cualquier mejora o sugerencia, abre un issue o env¨ªa un pull request.
+Las contribuciones son bienvenidas. Para cualquier mejora o sugerencia, abre un issue o envÃ­a un pull request.
 
-?? Contacto: jespinozac10@est.ups.edu.ec
+ğŸ“§ Contacto: jespinozac10@est.ups.edu.ec
 
-?? Happy Coding! ??
+ğŸš€ Happy Coding! ğŸ¯
 
