@@ -14,7 +14,7 @@ services:
       - KAFKA_HOST=broker
       - KAFKA_PORT=9092
       - KAFKA_POINT_TO_POINT=point-to-point-topic
-      - REDIS_HOST=broker
+      - REDIS_HOST=redis-broker
       - REDIS_PORT=6379
     networks:
       - default
@@ -34,7 +34,7 @@ services:
       - KAFKA_PORT=9092
       - KAFKA_GROUP_ID=point-to-point-group
       - KAFKA_POINT_TO_POINT=point-to-point-topic
-      - REDIS_HOST=broker
+      - REDIS_HOST=redis-broker
       - REDIS_PORT=6379
     networks:
       - default
@@ -54,7 +54,7 @@ services:
       - KAFKA_PORT=9092
       - KAFKA_GROUP_ID=point-to-point-group
       - KAFKA_POINT_TO_POINT=point-to-point-topic
-      - REDIS_HOST=broker
+      - REDIS_HOST=redis-broker
       - REDIS_PORT=6379
     networks:
       - default
