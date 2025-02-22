@@ -40,12 +40,12 @@ A continuación, te presentamos los proyectos en los que estamos trabajando:
 - **Estado:** 🟢 En progreso / 🟡 En revisión / 🔴 Completado
 
 ### �11 Proyecto 11: Documente Message
-- **Descripción:** El patr��n Document Message es un Patr��n de Integraci��n Empresarial (EIP) que se utiliza para transmitir informaci��n estructurada entre sistemas mediante mensajes en formato de documento.
+- **Descripción:** El patrón Document Message es un Patrón de Integración Empresarial (EIP) que se utiliza para transmitir información estructurada entre sistemas mediante mensajes en formato de documento.
 - **Tecnologías:** Kaffa, Redis, Java.
 - **Estado:** 🟢 En progreso 
 
 ### �12 Proyecto 12: Event Message
-- **Descripción:** El Event Message es un Patr��n de Integraci��n Empresarial (EIP) utilizado para transmitir eventos entre sistemas mediante mensajes. A diferencia de otros patrones como Document Message, donde el mensaje contiene toda la informaci��n estructurada, aqu�� el mensaje se enfoca en notificar que ocurri�� un evento, sin necesariamente contener todos los datos asociados.
+- **Descripción:** El Event Message es un Patrón de Integración Empresarial (EIP) utilizado para transmitir eventos entre sistemas mediante mensajes. A diferencia de otros patrones como Document Message, donde el mensaje contiene toda la información estructurada, aquí el mensaje se enfoca en notificar que ocurrió un evento, sin necesariamente contener todos los datos asociados.
 - **Tecnologías:** Kafka, Redis, Java.
 - **Estado:** 🟢 En progreso 
 
