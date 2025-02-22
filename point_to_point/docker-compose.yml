@@ -14,7 +14,7 @@ services:
       - KAFKA_HOST=broker
       - KAFKA_PORT=9092
       - KAFKA_POINT_TO_POINT=point-to-point-topic
-      - REDIS_HOST=broker
+      - REDIS_HOST=redis-broker
       - REDIS_PORT=6379
     networks:
       - default
@@ -23,26 +23,6 @@ services:
     build:
       context: ../receiver
     container_name: receiver-one
-    ports:
-      - "8081:8080"
-    depends_on:
-      - kafka
-      - redis
-    environment:
-      - PORT=8080
-      - KAFKA_HOST=broker
-      - KAFKA_PORT=9092
-      - KAFKA_GROUP_ID=point-to-point-group
-      - KAFKA_POINT_TO_POINT=point-to-point-topic
-      - REDIS_HOST=broker
-      - REDIS_PORT=6379
-    networks:
-      - default
-
-  receiver_two:
-    build:
-      context: ../receiver
-    container_name: receiver-two
     ports:
       - "8082:8080"
     depends_on:
@@ -54,7 +34,27 @@ services:
       - KAFKA_PORT=9092
       - KAFKA_GROUP_ID=point-to-point-group
       - KAFKA_POINT_TO_POINT=point-to-point-topic
-      - REDIS_HOST=broker
+      - REDIS_HOST=redis-broker
+      - REDIS_PORT=6379
+    networks:
+      - default
+
+  receiver_two:
+    build:
+      context: ../receiver
+    container_name: receiver-two
+    ports:
+      - "8083:8080"
+    depends_on:
+      - kafka
+      - redis
+    environment:
+      - PORT=8080
+      - KAFKA_HOST=broker
+      - KAFKA_PORT=9092
+      - KAFKA_GROUP_ID=point-to-point-group
+      - KAFKA_POINT_TO_POINT=point-to-point-topic
+      - REDIS_HOST=redis-broker
       - REDIS_PORT=6379
     networks:
       - default
