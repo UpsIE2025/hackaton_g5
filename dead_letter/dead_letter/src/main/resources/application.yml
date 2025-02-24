@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: dead_letter
+  kafka:
+    producer:
+      bootstrap-servers: ${KAFKA_HOST}:${KAFKA_PORT}
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+    consumer:
+      group-id: group_id
+      auto-offset-reset: earliest  # Qué hacer si no hay offset (earliest o latest)
+      enable-auto-commit: true  # Si deseas habilitar el commit automático del offset
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+kafka:
+  topic:
+    main: "topic-order"
+    dead-letter: "topic-dead-letter"
+
+server:
+  port: ${PORT}
