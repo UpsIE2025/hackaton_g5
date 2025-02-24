@@ -1,16 +1,19 @@
 spring:
   application:
     name: dead_letter
+
   kafka:
+    # Configuración del productor
     producer:
-      bootstrap-servers: ${KAFKA_HOST}:${KAFKA_PORT}
+      bootstrap-servers: ${KAFKA_HOST}:${KAFKA_PORT}  # Dirección de tu servidor Kafka
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
 
+    # Configuración del consumidor
     consumer:
-      group-id: group_id
-      auto-offset-reset: earliest  # Qu� hacer si no hay offset (earliest o latest)
-      enable-auto-commit: true  # Si deseas habilitar el commit autom�tico del offset
+      group-id: group_id  # El ID de tu grupo de consumidores
+      auto-offset-reset: earliest  # Qué hacer si no hay offset (earliest o latest)
+      enable-auto-commit: true  # Si deseas habilitar el commit automático del offset
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 
